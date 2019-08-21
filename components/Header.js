@@ -26,7 +26,7 @@ const Header = props => {
                 <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
                     <MenuIcon />
                 </IconButton>
-                <img src="/static/colorbot-xyz.svg" />
+                <img src="/static/colorbot-xyz.svg" style={{'max-width': '60%'}}/>
             </Toolbar>
         </AppBar>
     );
