@@ -10,6 +10,7 @@ import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
     card: {
+        margin: '10px',
         maxWidth: 345,
     },
     media: {
@@ -17,7 +18,7 @@ const useStyles = makeStyles({
     },
 });
 
-export default function SpheroProjectCard() {
+const ProjectCard = props => {
     const classes = useStyles();
 
     return (
@@ -25,15 +26,15 @@ export default function SpheroProjectCard() {
             <CardActionArea>
                 <CardMedia
                     className={classes.media}
-                    image="/static/images/cards/sphero.jpg"
-                    title="Trackball Robot"
+                    image={props.cardImageSrc}
+                    title={props.cardImageTitle}
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">
-                       Trackball Robot Installations
+                        {props.title}
                     </Typography>
                     <Typography variant="body2" color="textSecondary" component="p">
-                        A series of popup interactive installations I created with Sphero robots with custom trackball controllers.
+                        {props.blurb}
                     </Typography>
                 </CardContent>
             </CardActionArea>
@@ -48,3 +49,5 @@ export default function SpheroProjectCard() {
         </Card>
     );
 }
+
+export default ProjectCard
