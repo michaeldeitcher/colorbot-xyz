@@ -10,13 +10,13 @@ const Page = () => (
             <Grid container justify="center">
                 <ProjectCard title="The Odd City's Interactive Bridge"
                              blurb="Interactive bridge with animated lighting and sound synthesis."
-                             cardImageSrc="/static/images/cards/interactive-bridge.jpeg"
+                             cardImageSrc="/static/images/cards/interactive-bridge.jpg"
                              cardImageTitle="Interactive Bridge"
                 />
 
                 <ProjectCard title='The "This Is How We Roll" portable game cabinet'
                              blurb="A popup game cabinet with dual trackballs."
-                             cardImageSrc="/static/images/cards/game-cabinet.jpeg"
+                             cardImageSrc="/static/images/cards/game-cabinet.jpg"
                              cardImageTitle="This is How We Roll"
                 />
 
