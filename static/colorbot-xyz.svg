@@ -4,10 +4,10 @@
   <style>
     <![CDATA[
        #main-text path {
-          fill: magenta !important;
+          fill: black !important;
        }
        #main-text.animate path {
-        animation: color-change 3s 2;
+        animation: color-change 4s;
       }
       #main-text g:nth-child(1) path { animation-delay: .5s }
       #main-text g:nth-child(2) path { animation-delay: 1s }
