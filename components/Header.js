@@ -38,9 +38,9 @@ class Header extends Component {
         return (
             <AppBar position="static" color="secondary">
                 <Toolbar>
-                    <IconButton edge="start" color="inherit" aria-label="menu">
-                        <MenuIcon />
-                    </IconButton>
+                    {/*<IconButton edge="start" color="inherit" aria-label="menu">*/}
+                        {/*<MenuIcon />*/}
+                    {/*</IconButton>*/}
                     <Link href="/">
                     <ReactSVG src="/static/colorbot-xyz.svg" style={{maxWidth: '60%', paddingTop: '8px'}}/>
                     </Link>

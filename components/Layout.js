@@ -2,6 +2,8 @@ import Header from './Header';
 import Head from 'next/head'
 import { MuiThemeProvider } from '@material-ui/core/styles'
 import theme from '../src/theme';
+import Container from '@material-ui/core/Container'
+import Grid from '@material-ui/core/Grid';
 
 const withLayout = Page => {
     return () => (
@@ -13,7 +15,12 @@ const withLayout = Page => {
             </Head>
 
             <Header />
-            <Page />
+            <div style={{minHeight: '80vh'}}>
+                <Page />
+            </div>
+            <Container style={{textAlign: 'center', height: '60px'}}>
+                © 2019 Colorbot.xyz, all rights reserved.
+            </Container>
             <style jsx global>{`
               body {
               }
