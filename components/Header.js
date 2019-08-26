@@ -8,25 +8,32 @@ import { makeStyles } from '@material-ui/core/styles';
 import ReactSVG from 'react-svg'
 
 const animationDelay = 9000;
+let timer0 = null;
+let timer1 = null;
 const restartTitleAnimation = () => {
     var element = document.getElementById("main-text");
     element.classList.remove("animate")
     void element.offsetWidth; // trigger a DOM reflow
-    setTimeout(restartTitleAnimationStep2, 1000);
+    timer1 = setTimeout(restartTitleAnimationStep2, 1000);
 }
 
 const restartTitleAnimationStep2 = () => {
     var element = document.getElementById("main-text");
     element.classList.add("animate");
-    setTimeout(restartTitleAnimation, animationDelay);
+    timer0 = setTimeout(restartTitleAnimation, animationDelay);
 }
 
 class Header extends Component {
 
     componentDidMount() {
-        setTimeout(restartTitleAnimation, animationDelay);
+        timer0 = setTimeout(restartTitleAnimation, animationDelay);
     }
-    
+
+    componentWillUnmount() {
+        clearTimeout(timer0);
+        clearTimeout(timer1);
+    }
+
     render() {
         return (
             <AppBar position="static" color="secondary">
@@ -34,7 +41,9 @@ class Header extends Component {
                     <IconButton edge="start" color="inherit" aria-label="menu">
                         <MenuIcon />
                     </IconButton>
+                    <Link href="/">
                     <ReactSVG src="/static/colorbot-xyz.svg" style={{maxWidth: '60%', paddingTop: '8px'}}/>
+                    </Link>
                 </Toolbar>
             </AppBar>
         );
