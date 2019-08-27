@@ -49,7 +49,7 @@ const Page = () => (
     <Container>
         <Typography variant="h6" component="h6" style={{marginTop: '20px'}}>FUSE Makerspace</Typography>
         <Typography variant="body1" component="p">I took a two session Shotbot CNC class at FUSE Makerspace. We learned how to create a tool path using VCarve software and how to safely operate the Shopbot CNC router. Here is the Shopbot cutting out the sides of the cabinet.</Typography>
-        <ReactPlayer url='https://vimeo.com/356059052' style={{marginTop: '10px'}}/>
+        <ReactPlayer url='https://vimeo.com/356059052' style={{marginTop: '10px', maxWidth: '90vw'}}/>
     </Container>
 
     <Container>

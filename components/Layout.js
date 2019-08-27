@@ -15,7 +15,7 @@ const withLayout = Page => {
             </Head>
 
             <Header />
-            <div style={{minHeight: '80vh'}}>
+            <div style={{minHeight: '80vh', maxWidth: '100vw', overflow: 'hidden'}}>
                 <Page />
             </div>
             <Container style={{textAlign: 'center', height: '60px'}}>
