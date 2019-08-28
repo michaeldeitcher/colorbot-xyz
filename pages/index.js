@@ -13,7 +13,7 @@ const Page = () => (
         description=""
     />
 
-    <Container maxWidth="sm">
+    <Container maxWidth="md">
         <Typography variant="h3" component="h1" style={{marginTop:'20px'}}>Hi I'm Michael.</Typography>
         <Typography variant="h5" component="h2">I am an artist/maker/programmer who enjoys creating and sharing interactive experiences. I'm working on documenting these projects. It's a work in progress.</Typography>
 
