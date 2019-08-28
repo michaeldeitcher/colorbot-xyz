@@ -13,7 +13,8 @@ const useStyles = makeStyles({
     imgContainer: {
         '& img, & p': {
             margin: 'auto',
-            padding: '10px 0'
+            padding: '10px 0',
+            maxWidth: '90vw'
         }
     }
 });
