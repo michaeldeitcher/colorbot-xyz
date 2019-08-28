@@ -67,6 +67,25 @@ const Page = (props) => {
             </Grid>
         </Grid>
     </Container>
+
+    <Container className={classes.sectionContainer}>
+        <Typography variant="h4" component="h6" className={classes.sectionContainer}>Project: Rollerbox • Bump!</Typography>
+        <Typography variant="body1" component="p">Play offense. Roll over active goal buttons to score.</Typography>
+        <Typography variant="body1" component="p">Play defense. Keep your opponent from scoring.</Typography>
+
+        <Grid container>
+            <Grid item xs={12} lg={5}>
+                <Grid container className={classes.imgContainer}>
+                    <img src="/static/images/projects/sphero/rollerbox.jpg"/>
+                </Grid>
+            </Grid>
+            <Grid item xs={12} lg={7}>
+                <Grid container className={classes.imgContainer}>
+                    <ReactPlayer url='https://vimeo.com/234761658' style={{margin: '10px auto', maxWidth: '90vw'}}/>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Container>
     </>
 )};
 
