@@ -34,7 +34,7 @@ const Page = (props) => {
     <Container className={classes.sectionContainer}>
         <Typography variant="h4" component="h6" className={classes.sectionContainer}>Project: Tower at the End of Time</Typography>
         <Typography variant="body1" component="p">Roll over six bridges to make it to the Tower at the End of Time!</Typography>
-        <Typography variant="h5" component="body1">Emerge - ShowOff 5.0 - Time Travel - Science Fair and Talent Show - April 9, 2016</Typography>
+        <Typography variant="h5">Emerge - ShowOff 5.0 - Time Travel - Science Fair and Talent Show - April 9, 2016</Typography>
         <Grid container>
             <Grid item xs={12} lg={5}>
                 <Grid container className={classes.imgContainer}>
@@ -52,7 +52,7 @@ const Page = (props) => {
     <Container className={classes.sectionContainer}>
         <Typography variant="h4" component="h6" className={classes.sectionContainer}>Project: Volcano Run!</Typography>
         <Typography variant="body1" component="p">Teams race around two active volcanoes!</Typography>
-        <Typography variant="h5" component="body1">Danger Carnival - Dinosaur Jungle - September 17, 2016</Typography>
+        <Typography variant="h5">Danger Carnival - Dinosaur Jungle - September 17, 2016</Typography>
 
         <Grid container>
             <Grid item xs={12} lg={5}>

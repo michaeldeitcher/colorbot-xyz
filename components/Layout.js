@@ -1,13 +1,20 @@
+import React, { useEffect } from "react";
 import Header from './Header';
 import Head from 'next/head'
-import { MuiThemeProvider } from '@material-ui/core/styles'
-import theme from '../src/theme';
+import { initGA, logPageView } from '../lib/analytics'
 import Container from '@material-ui/core/Container'
-import Grid from '@material-ui/core/Grid';
 
 const withLayout = Page => {
-    return () => (
-        <MuiThemeProvider theme={theme}>
+    return () => {
+        useEffect(() => {
+            if (!window.GA_INITIALIZED) {
+                initGA();
+                window.GA_INITIALIZED = true;
+            }
+            logPageView();
+        });
+        return (
+        <>
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta charSet="utf-8" />
@@ -25,8 +32,8 @@ const withLayout = Page => {
               body {
               }
             `}</style>
-        </MuiThemeProvider>
-    )
+        </>
+    )}
 };
 
 export default withLayout;
