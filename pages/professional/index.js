@@ -38,15 +38,27 @@ const Page = () => {
     const content = [
         {
             companyName: 'Trekaroo Inc.',
-            companyDesc: 'Family Travel Community Portal',
+            companyDesc: 'Trekaroo is the fun way to get the inside scoop on traveling with kids. They provide reviews of kid-friendly activities, hotels, and travel tips for family fun.',
             companyLink: 'www.trekaroo.com',
-            position: 'Lead Software Developer',
-            hiredDates: '2014-now',
+            position: 'Software Developer Contractor',
+            hiredDates: '2014-2019',
             bullets: [
-                "Rebuilt Trekaroo as a reponsive Ember.js client with a Rails API server.",
-                "Implemented Trekaroo full content search. Indexing data and refining rules for Trekaroo's propriatary and Wordpress content.",
-                "Integration of many third party apis including google maps, facebook, and booking.com.",
-                "Implemented functional testing using Nightwatch.js."
+                "Rebuilt Trekaroo as a responsive Ember.js client with a Rails API server.",
+                "Implemented Trekaroo full content search with Elastic Search. Indexing data and refining rules for Trekaroo's propriatary and Wordpress content.",
+                "Drastically refined the way content is added and edited in Trekaroo, making it fast and fun to build effective Travel Guides.",
+                "Built nightly update system of booking.com hotel affiliate content.",
+                "Published Trekaroo iOS app with push notification support.",
+                "Maintained and improved SEO, Geolocation, and 3rd party Mail Marketing integrations."
+            ]
+        },
+        {
+            companyName: 'Lens Inc.',
+            companyDesc: 'A decentralized solution for you to own and control access to your contact data.',
+            companyLink: 'www.mylens.io',
+            position: 'Software Developer Contractor',
+            hiredDates: '2018-2019',
+            bullets: [
+                "Developed native iOS application for managing contact information, creating and revoking phone and email aliases."
             ]
         },
         {
@@ -189,13 +201,16 @@ const Page = () => {
             <Grid item xs={4}>
                 <Typography variant="h5" component="h2">Skills</Typography>
                 <ul>
-                <li>Front End Web Development with Ember.js, ES6, and Node.</li>
-                <li>Testing with Nightowl.js. RSpec. QUnit.</li>
-                <li>Server Development with Ruby on Rails and MySQL.</li>
-                <li>Google maps, Facebook Connect, and various other server apis. Source Control with Git</li>
-                <li>iOS Development with swift Bluetooth LE</li>
-                <li>Arduino Programming with C++ Game Development with Unity, C#, and Blender</li>
-                <li>Project management with Jira and Pivotal Tracker</li>
+                    <li>SPA with Ember.js or React</li>
+                    <li>Server Development with Ruby on Rails and MySQL.</li>
+                    <li>Responsive Web Application Design</li>
+                    <li>Agile Methodologies</li>
+                    <li>Git</li>
+                    <li>Project Management with Jira or Pivotal Tracker</li>
+                    <li>Rspec and Selenium Testing</li>
+                    <li>Elastic Search, Redis, Resque.</li>
+                    <li>iOS Development with swift Bluetooth LE</li>
+                    <li>Arduino Programming with C++, Game Development with Unity, C#, and Blender</li>
                 </ul>
             </Grid>
         </Grid>
