@@ -68,10 +68,10 @@ const Page = () => {
             position: 'Software Developer',
             hiredDates: '2011-2014',
             bullets: [
-                "Rails development for Coupa's Procurement and Invoicing products. Developed and released features for Coupa Mobile on iOS.",
-                "Managed the outsourcing of our Android development.",
+                "Rails development for first Coupa's Procure-To-Pay. A sophisticated system to manage the approval chain process large companies use to procure goods and manage invoices.",
                 "Lead development of Coupa's Supplier Portal that enables suppliers to offer products through Coupa's Procurement Platform.",
-                "Evangelist for agile methodolgies; convincing first development team at Coupa to have daily standups and sprint planning cycles.",
+                "Evangelist for agile methodologies; convincing first development team at Coupa to have daily standups and sprint planning cycles.",
+                "Successfully released iOS app featuring needed key features for approval chain management. Worked on iOS app and ruby backend api.",
                 "Winner of most bugs fixed in major release award."
             ]
         },
@@ -82,7 +82,8 @@ const Page = () => {
             position: 'Software Developer',
             hiredDates: '2010-2011',
             bullets: [
-                "Development of all features of web magazine. These include editing and publishing of articles, digest emails, promotions, merchant presence and promotions, and member community features.",
+                "Development of all features of web magazine. These include editing and publishing of events, articles, digest emails, promotions, merchant presence and promotions, and member community features.",
+                "Amazon Payments Integration for ticket purchases of events.",
                 "Rails test driven development with RSpec, Selenium, and Webrat."
             ]
         },
@@ -158,8 +159,8 @@ const Page = () => {
     )
 
     const showAddress = false;
-    const Address = () => {
-        if(showAddress) {
+    const Address = (props) => {
+        if(props.showAddress) {
             return (
                 <><Typography variant="body1">Albuquerque, NM<br/>415-407-7178<br/>michaeldeitcher@gmail.com</Typography></>
             )
@@ -181,14 +182,14 @@ const Page = () => {
                 <Typography variant="h5">Full Stack Developer</Typography>
             </Grid>
             <Grid item xs={4}>
-                <Address/>
+                <Address showAddress={false}/>
             </Grid>
         </Grid>
 
 
         <Grid container spacing={3}  style={{marginTop:'20px'}}>
             <Grid item xs={8}>
-                <Typography variant="h5" component="h2">Experience</Typography>
+                <Typography variant="h5" component="h2">Professional Experience</Typography>
                 <ExperienceItems items={content}/>
                 <Typography variant="h5" component="h2">Education</Typography>
                 <Container style={{padding:'0px'}}>
@@ -199,7 +200,7 @@ const Page = () => {
 
             </Grid>
             <Grid item xs={4}>
-                <Typography variant="h5" component="h2">Skills</Typography>
+                <Typography variant="h5" component="h2">Full Web Stack Skills</Typography>
                 <ul>
                     <li>SPA with Ember.js or React</li>
                     <li>Server Development with Ruby on Rails and MySQL.</li>
@@ -208,9 +209,13 @@ const Page = () => {
                     <li>Git</li>
                     <li>Project Management with Jira or Pivotal Tracker</li>
                     <li>Rspec and Selenium Testing</li>
-                    <li>Elastic Search, Redis, Resque.</li>
-                    <li>iOS Development with swift Bluetooth LE</li>
-                    <li>Arduino Programming with C++, Game Development with Unity, C#, and Blender</li>
+                    <li>Elastic Search, Redis, Resque</li>
+                </ul>
+                <Typography variant="h5" component="h2">Extra</Typography>
+                <ul>
+                    <li>iOS Development with swift or Objective C</li>
+                    <li>Arduino Programming with C++</li>
+                    <li>Game Development with Unity, C#, and Blender</li>
                 </ul>
             </Grid>
         </Grid>
