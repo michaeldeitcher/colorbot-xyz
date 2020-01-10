@@ -7,7 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import Link from 'next/link'
+import CardLink from './CardLink'
 
 const useStyles = makeStyles({
     card: {
@@ -23,7 +23,7 @@ const ProjectCard = props => {
     const classes = useStyles();
 
     return (
-        <Link href={props.href}>
+        <CardLink href={props.href}>
         <Card className={classes.card}>
             <CardActionArea>
                 <CardMedia
@@ -46,7 +46,7 @@ const ProjectCard = props => {
                 </Button>
             </CardActions>
         </Card>
-        </Link>
+        </CardLink>
     );
 }
 

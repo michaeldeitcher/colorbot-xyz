@@ -22,11 +22,11 @@ const Page = () => (
     <Grid container>
         <Grid item xs={12}>
             <Grid container justify="center">
-                <ProjectCard title="The Odd City's Interactive Bridge"
-                             blurb="Interactive bridge with animated lighting and sound synthesis."
-                             cardImageSrc="/static/images/cards/interactive-bridge.jpg"
-                             cardImageTitle="Interactive Bridge"
-                             href="/projects/odd-city-interactive-bridge"
+                <ProjectCard title="Force Graph Three"
+                             blurb="This is a force directed tree graph made with three.js. Opposing forces push nodes away from each other while spring forces hold the structure of the tree in place."
+                             cardImageSrc="/static/images/cards/Force_Graph_Three.png"
+                             cardImageTitle="Force Graph Three"
+                             href="https://michaeldeitcher.github.io/force-graph-three/"
                 />
 
                 <ProjectCard title='The "This Is How We Roll" portable game cabinet'
@@ -42,6 +42,13 @@ const Page = () => (
                              cardImageSrc="/static/images/cards/sphero.jpg"
                              cardImageTitle="Trackball Robot"
                              href="/projects/trackball-robot-sphero"
+                />
+
+                <ProjectCard title="The Odd City's Interactive Bridge"
+                             blurb="Interactive bridge with animated lighting and sound synthesis."
+                             cardImageSrc="/static/images/cards/interactive-bridge.jpg"
+                             cardImageTitle="Interactive Bridge"
+                             href="/projects/odd-city-interactive-bridge"
                 />
             </Grid>
         </Grid>

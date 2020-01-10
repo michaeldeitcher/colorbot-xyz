@@ -41,7 +41,7 @@ const Page = () => {
             companyDesc: 'Trekaroo is the fun way to get the inside scoop on traveling with kids. They provide reviews of kid-friendly activities, hotels, and travel tips for family fun.',
             companyLink: 'www.trekaroo.com',
             position: 'Software Developer Contractor',
-            hiredDates: '2014-2019',
+            hiredDates: 'May 2014 - Present',
             bullets: [
                 "Rebuilt Trekaroo as a responsive Ember.js client with a Rails API server.",
                 "Implemented Trekaroo full content search with Elastic Search. Indexing data and refining rules for Trekaroo's propriatary and Wordpress content.",
@@ -56,7 +56,7 @@ const Page = () => {
             companyDesc: 'A decentralized solution for you to own and control access to your contact data.',
             companyLink: 'www.mylens.io',
             position: 'Software Developer Contractor',
-            hiredDates: '2018-2019',
+            hiredDates: 'September 2018 - February 2019',
             bullets: [
                 "Developed native iOS application for managing contact information, creating and revoking phone and email aliases."
             ]
@@ -66,7 +66,7 @@ const Page = () => {
             companyDesc: 'Cloud Platform for Business Spend',
             companyLink: 'www.coupa.com',
             position: 'Software Developer',
-            hiredDates: '2011-2014',
+            hiredDates: 'August 2011 - March 2014',
             bullets: [
                 "Rails development for first Coupa's Procure-To-Pay. A sophisticated system to manage the approval chain process large companies use to procure goods and manage invoices.",
                 "Lead development of Coupa's Supplier Portal that enables suppliers to offer products through Coupa's Procurement Platform.",
@@ -80,7 +80,7 @@ const Page = () => {
             companyDesc: 'A distinctive web magazine for San Francisco locals.',
             companyLink: 'www.thebolditalic.com',
             position: 'Software Developer',
-            hiredDates: '2010-2011',
+            hiredDates: 'October 2009 - Feburary 2011',
             bullets: [
                 "Development of all features of web magazine. These include editing and publishing of events, articles, digest emails, promotions, merchant presence and promotions, and member community features.",
                 "Amazon Payments Integration for ticket purchases of events.",
@@ -92,7 +92,7 @@ const Page = () => {
             companyDesc: 'Family Travel Community Portal',
             companyLink: 'www.trekaroo.com',
             position: 'Lead Software Developer',
-            hiredDates: '2008-2010',
+            hiredDates: 'March 2008 - September 2009',
             bullets: [
                 "Built site from inception.",
                 "Iterated quickly to develop a system to leverage our limited seed content and let our community and administrators grow our site's content. Collaborated with team members to create new features, design the UI, enhance SEO, and monitor analytics.",
