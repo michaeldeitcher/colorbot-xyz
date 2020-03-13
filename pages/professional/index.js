@@ -37,11 +37,21 @@ const Page = () => {
 
     const content = [
         {
+            companyName: 'BundleBundle',
+            companyDesc: 'Digital contribution based collaboration.',
+            companyLink: 'bundlebundle.org',
+            position: 'Co-Founder and Developer',
+            hiredDates: 'February 2020 - Present',
+            bullets: [
+                "Creating a contribution based publishing system using React.js and Rails.",
+            ]
+        },
+        {
             companyName: 'Trekaroo Inc.',
             companyDesc: 'Trekaroo is the fun way to get the inside scoop on traveling with kids. They provide reviews of kid-friendly activities, hotels, and travel tips for family fun.',
             companyLink: 'www.trekaroo.com',
             position: 'Software Developer Contractor',
-            hiredDates: 'May 2014 - Present',
+            hiredDates: 'May 2014 - February 2020',
             bullets: [
                 "Rebuilt Trekaroo as a responsive Ember.js client with a Rails API server.",
                 "Implemented Trekaroo full content search with Elastic Search. Indexing data and refining rules for Trekaroo's propriatary and Wordpress content.",
