@@ -37,11 +37,24 @@ const Page = () => {
 
     const content = [
         {
+            companyName: 'Mediavine',
+            companyDesc: 'Full-service ad management provider helping content creators make sustainable businesses.',
+            companyLink: 'mediavine.com',
+            position: 'Senior Software Engineer',
+            hiredDates: 'April 2020 - Present',
+            bullets: [
+                "Maintain and Extend Rails API services for a publishing dashboard and other microservices.",
+                "Refactored metrics api to provide 10x performance improvements.",
+                "Health check system to monitor publisher sites and their compliance to Mediavine policies.",
+                "House Ad publishing system that creates and controls Google Ad manager content."
+            ]
+        },        
+        {
             companyName: 'BundleBundle',
             companyDesc: 'Digital contribution based collaboration.',
             companyLink: 'bundlebundle.org',
             position: 'Co-Founder and Developer',
-            hiredDates: 'February 2020 - Present',
+            hiredDates: 'February 2020 - March 2020',
             bullets: [
                 "Creating a contribution based publishing system using React.js and Rails.",
             ]
