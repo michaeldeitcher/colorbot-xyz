@@ -41,7 +41,7 @@ const Page = () => {
             companyDesc: 'Full-service ad management provider helping content creators make sustainable businesses.',
             companyLink: 'mediavine.com',
             position: 'Senior Software Engineer',
-            hiredDates: 'April 2020 - Present',
+            hiredDates: 'April 2020 - September 2021',
             bullets: [
                 "Maintain and Extend Rails API services for a publishing dashboard and other microservices.",
                 "Refactored metrics api to provide 10x performance improvements.",
