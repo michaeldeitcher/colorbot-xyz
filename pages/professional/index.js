@@ -37,6 +37,17 @@ const Page = () => {
 
     const content = [
         {
+            companyName: 'Zego (a Global Payments company)',
+            companyDesc: 'Property Management Software.',
+            companyLink: 'gozego.com',
+            position: 'Senior Software Engineer',
+            hiredDates: 'January 2022 - Present',
+            bullets: [
+                "Team Anchor for resident experience (Mobile Doorman) projects. ",
+                "Responsible for the development and maintenance of several services built with Node, React, and Ruby on Rails.",
+            ]
+        },         
+        {
             companyName: 'Mediavine',
             companyDesc: 'Full-service ad management provider helping content creators make sustainable businesses.',
             companyLink: 'mediavine.com',
@@ -49,16 +60,6 @@ const Page = () => {
                 "House Ad publishing system that creates and controls Google Ad manager content."
             ]
         },        
-        {
-            companyName: 'BundleBundle',
-            companyDesc: 'Digital contribution based collaboration.',
-            companyLink: 'bundlebundle.org',
-            position: 'Co-Founder and Developer',
-            hiredDates: 'February 2020 - March 2020',
-            bullets: [
-                "Creating a contribution based publishing system using React.js and Rails.",
-            ]
-        },
         {
             companyName: 'Trekaroo Inc.',
             companyDesc: 'Trekaroo is the fun way to get the inside scoop on traveling with kids. They provide reviews of kid-friendly activities, hotels, and travel tips for family fun.',
@@ -225,14 +226,13 @@ const Page = () => {
             <Grid item xs={4}>
                 <Typography variant="h5" component="h2">Full Web Stack Skills</Typography>
                 <ul>
-                    <li>SPA with Ember.js or React</li>
-                    <li>Server Development with Ruby on Rails and MySQL.</li>
-                    <li>Responsive Web Application Design</li>
-                    <li>Agile Methodologies</li>
-                    <li>Git</li>
-                    <li>Project Management with Jira or Pivotal Tracker</li>
-                    <li>Rspec and Selenium Testing</li>
-                    <li>Elastic Search, Redis, Resque</li>
+                    <li>Typescript development with React, Node, and Jest.</li>
+                    <li>Ruby on Rails development with RSpec</li>
+                    <li>Scrum and Kanban Agile Methodologies</li>
+                    <li>PostgeSQL/MySQL, Kafka, Redis</li>
+                    <li>Node.js, React, Jest, CSS3, HTML5, MUI</li>
+                    <li>Ruby, Rails, Resque, Delayed Job, RSpec</li>
+                    <li>AWS, New Relic, Harness, Concourse</li>                    
                 </ul>
                 <Typography variant="h5" component="h2">Extra</Typography>
                 <ul>
